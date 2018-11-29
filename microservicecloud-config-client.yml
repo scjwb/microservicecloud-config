@@ -2,6 +2,10 @@ spring:
   profiles:
     active:
     - dev
+    #关闭验证
+management:
+  security:
+    enabled: false
 ---
 spring:
   profiles: dev
